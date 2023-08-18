@@ -11,4 +11,5 @@ python CalibrateCamera.py "path/to/image/folder/" pw ph
 - **ph:** height of the pattern
 ### Outputs 
 The quality of the calibration can be judged by the value of the *re-projection error* given as the first output. A value of around $1$ or lower is desirable.
-If the calibration is successful the code will print out the intrinsic camera parameters: the *camera matrix* and the *distortion coefficient*. In addition, for each image it gives a *rotation vector* and a *translation vector*.
+
+If the calibration is successful the code will print out the intrinsic camera parameters: the *camera matrix* and the *distortion coefficient*. In addition, for each image, it gives a *rotation vector* and a *translation vector*.
